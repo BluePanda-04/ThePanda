@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pendaftaran - Pendaftaran Pemain Badminton</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Pendaftaran Pemain Badminton</h1>
+  </header>
+
+  <!-- Menu Navigasi -->
+  <nav>
+    <a href="formulir.html">Beranda</a>
+    <a href="pendaftaran.html">Pendaftaran</a>
+    <a href="daftarpemain.html">Daftar Pemain</a>
+  </nav>
+
+  <!-- Form Pendaftaran -->
+  <section>
+    <h2>Formulir Pendaftaran Pemain Badminton</h2>
+    <form id="formPendaftaran">
+      <label for="nama">Nama Lengkap:</label>
+      <input type="text" id="nama" name="nama" required><br><br>
+
+      <label for="telepon">Nomor Telepon:</label>
+      <input type="text" id="telepon" name="telepon" required><br><br>
+
+      <label for="umur">Umur:</label>
+      <input type="number" id="umur" name="umur" required><br><br>
+
+      <label for="alamat">Alamat:</label><br>
+      <textarea id="alamat" name="alamat" rows="4" required></textarea><br><br>
+
+      <label for="jenis_kelamin">Jenis Kelamin:</label>
+      <select id="jenis_kelamin" name="jenis_kelamin" required>
+        <option value="Laki-Laki">Laki-Laki</option>
+        <option value="Perempuan">Perempuan</option>
+      </select><br><br>
+
+      <button type="button" onclick="tambahPemain()">Daftar</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script> <!-- Menghubungkan file JavaScript -->
+</body>
+</html>

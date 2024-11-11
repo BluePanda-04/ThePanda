@@ -1,0 +1,185 @@
+/* Gaya keseluruhan */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Style untuk header */
+header {
+    width: 100%;
+    height: 300px; /* Sesuaikan sesuai kebutuhan */
+    background-image: url('badminton.jpg'); /* Pastikan gambar resolusi tinggi */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  text-align: center;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+header p {
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.btn-daftar {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 20px;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.btn-daftar:hover {
+  background-color: #555;
+}
+
+/* Style untuk navigasi */
+nav {
+  background-color: #333;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #4a90e2;
+  color: white;
+  border-radius: 3px;
+}
+
+/* Style untuk section */
+section {
+  padding: 20px 0;
+  max-width: 800px;
+  margin: auto;
+}
+
+section h2 {
+  text-align: center;
+  font-size: 24px;
+  color: #4a90e2;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+section p {
+  font-size: 16px;
+  text-align: center;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Style untuk form pendaftaran */
+section form {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+section form label {
+  font-weight: 500;
+  color: #333;
+}
+
+section form input,
+section form select,
+section form textarea,
+section form button {
+  width: 385px;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+section form button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+section form button:hover {
+  background-color: #357ABD;
+}
+
+/* Style untuk tabel daftar pemain */
+section table {
+  width: 90%;
+  margin: 0px auto;
+  border-collapse: collapse;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+section table, 
+section table th, 
+section table td {
+  border: 1px solid #ddd;
+}
+
+section table th {
+  background-color: #4a90e2;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+}
+
+section table td {
+  padding: 10px;
+  text-align: center;
+}
+
+section table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Style untuk galeri */
+.galeri-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.galeri-container img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.galeri-container img:hover {
+  transform: scale(1.03);
+}
